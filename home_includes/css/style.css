@@ -1,0 +1,27 @@
+.bg-img {
+  background: url("../images/pexels-timur-saglambilek-87223.jpg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.back-select {
+  background: linear-gradient(300deg, #56ccf2, #2f80ed);
+}
+#brand {
+  animation: spacing 10s ease-in-out infinite;
+}
+@keyframes spacing {
+  from {
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-weight: 200;
+    color: beige;
+  }
+  to {
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(254, 102, 7);
+  }
+}
